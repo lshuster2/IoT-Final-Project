@@ -1,6 +1,8 @@
 # IoT-Final-Project
 
-This is the final project for our IoT class. Below, find the names of the files and what each of them do.
+This is the final project for our IoT class in which we made an RC car controlled by a server through TCP. 
+Cypress CYW943907 and Raspberry Pi 3B+ were used.
+Below, find the names of the files and what each of them do.
 
 IoTFinalProject.c - Cypress source file for motor logic and communication with server  
 IoTFinalProject.mk - Cypress makefile for .c file  
