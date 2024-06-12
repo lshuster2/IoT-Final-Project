@@ -1,6 +1,6 @@
 # IoT-Final-Project
 
-This is the final project for our IoT class. Below, find the names of the files and what each of them do.
+This is the final project for our IoT class in which we constructed an RC car that is controlled from a server using TCP. Below, find the names of the files and what each of them do.
 
 IoTFinalProject.c - Cypress source file for motor logic and communication with server  
 IoTFinalProject.mk - makefile for Cypress .c file  
