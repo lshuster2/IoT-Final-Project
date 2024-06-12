@@ -1,0 +1,10 @@
+[Unit]
+Description=Ultrasonic Data Service
+After=network.target
+[Service]
+ExecStart=usr/bin/dashboard
+TimeoutSec=3
+Restart=always
+Type=simple
+[Install]
+WantedBy=multi-user.target

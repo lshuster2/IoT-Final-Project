@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Move the Car!</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        .controller {
+            margin-top: 50px;
+        }
+        button {
+            width: 100px;
+            height: 50px;  
+            margin: 10px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>      
+<body>
+    <h1>Press A Button...</h1>
+    <form action="/control" method="post">
+            <button type="submit" name="direction" value="forward">Forward</button>
+            <button type="submit" name="direction" value="backward">Backward</button>
+            <button type="submit" name="direction" value="left">Left</button>
+            <button type="submit" name="direction" value="right">Right</button>
+            <button type="submit" name="direction" value="stop">Stop</button>
+    </form>
+</body>
+</html>
